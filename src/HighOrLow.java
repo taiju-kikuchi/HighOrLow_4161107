@@ -12,13 +12,13 @@ public static void main(String[] args){
   for(int i = 1; i < 7;i++){
    System.out.println("High：「1」\nLow:「2」");
    work = sc.nextInt();
-   System.out.println("数字は「"+num[i]+"」です");
+   System.out.println("数字は「"+num[i]+"」です!");
 
    if(1==(work)){
     if(num[i] > num[i-1]){
      System.out.println("成功！！");
     }else{
-     System.out.println("失敗．．．");
+     System.out.println("失敗．．．!");
      System.exit(0);
     }
    }else if(2==(work)){
@@ -29,7 +29,7 @@ public static void main(String[] args){
      System.exit(0);
     }
    }else{
-    System.out.println("エラー");
+    System.out.println("エラー!");
     System.exit(0);
    }
 
